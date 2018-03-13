@@ -14,4 +14,6 @@ micro service(spring cloud) learning
 - [spring-cloud-config-client](https://github.com/AnthonyZero/spring-cloud-examples/tree/master/spring-cloud-config-client)：配置中心git客户端示例
 - [spring-cloud-config-server-eureka](https://github.com/AnthonyZero/spring-cloud-examples/tree/master/spring-cloud-config-server-eureka)：配置中心服务化和高可用代码 服务端
 - [spring-cloud-config-client-eureka](https://github.com/AnthonyZero/spring-cloud-examples/tree/master/spring-cloud-config-client-eureka)：配置中心服务化和高可用代码 客户端
+- [spring-cloud-config-server-bus](https://github.com/AnthonyZero/spring-cloud-examples/tree/master/spring-cloud-config-server-bus)：配置中心服务化和消息总线(使用RabbitMQ)服务端
+- [spring-cloud-config-client-bus](https://github.com/AnthonyZero/spring-cloud-examples/tree/master/spring-cloud-config-client-bus)：配置中心服务化和消息总线(使用RabbitMQ)客户端
 

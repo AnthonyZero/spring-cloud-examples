@@ -1,0 +1,26 @@
+server:
+    port: 9030
+spring:
+    application:
+        name: spring-cloud-config-server
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/AnthonyZero/spring-cloud-examples/     # git 仓库地址
+                    search-paths: config-repo           # git仓库地址下的相对地址,可配置多个用,分割                  
+                    username:          # 访问获取属性 http://localhost:9020/config/dev 获取 http://localhost:9020/config-dev.properties                                   
+                    password:  
+    rabbitmq:
+        host: 192.168.0.6
+        port: 5672
+        username: admin
+        password: 123456
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8010/eureka/   ## 注册中心eurka地址           
+
+management:
+    security:
+        enabled: false

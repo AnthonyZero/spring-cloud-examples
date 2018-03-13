@@ -16,4 +16,7 @@ micro service(spring cloud) learning
 - [spring-cloud-config-client-eureka](https://github.com/AnthonyZero/spring-cloud-examples/tree/master/spring-cloud-config-client-eureka)：配置中心服务化和高可用代码 客户端
 - [spring-cloud-config-server-bus](https://github.com/AnthonyZero/spring-cloud-examples/tree/master/spring-cloud-config-server-bus)：配置中心服务化和消息总线(使用RabbitMQ)服务端
 - [spring-cloud-config-client-bus](https://github.com/AnthonyZero/spring-cloud-examples/tree/master/spring-cloud-config-client-bus)：配置中心服务化和消息总线(使用RabbitMQ)客户端
+- [spring-cloud-gateway-service-zuul](https://github.com/AnthonyZero/spring-cloud-examples/tree/master/spring-cloud-gateway-service-zuul)：Spring Cloud Zuul服务网关
+- [spring-cloud-zuul](https://github.com/AnthonyZero/spring-cloud-examples/tree/master/spring-cloud-zuul)：Spring Cloud Zuul高级 Filter 鉴权 熔断 重试
+
 

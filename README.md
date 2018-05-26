@@ -19,5 +19,5 @@ micro service(spring cloud) learning
 - [spring-cloud-gateway-service-zuul](https://github.com/AnthonyZero/spring-cloud-examples/tree/master/spring-cloud-gateway-service-zuul)：Spring Cloud Zuul服务网关
 - [spring-cloud-zuul](https://github.com/AnthonyZero/spring-cloud-examples/tree/master/spring-cloud-zuul)：Spring Cloud Zuul高级 Filter 鉴权 熔断 重试
 - [spring-cloud-sleuth-zipkin](https://github.com/AnthonyZero/spring-cloud-examples/tree/master/spring-cloud-sleuth-zipkin)：Sleuth、Zipkin对Spring Cloud应用服务追踪 信息采集
-
+- [chapter2](https://github.com/AnthonyZero/spring-cloud-examples/tree/master/chapter2)：章节2 书籍简单有用例子积累
 

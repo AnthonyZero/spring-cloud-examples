@@ -1,0 +1,16 @@
+spring:
+    application:
+        name: spring-cloud-starter-eureka-server
+server:
+    port: 8010
+eureka:
+    server:
+        # 设为false，关闭自我保护
+        enable-self-preservation: false
+        # 清理已关停的节点间隔（单位毫秒，默认是60*1000）
+        eviction-interval-timer-in-ms: 4000
+    client:
+        registerWithEureka: false 
+        fetchRegistry: false
+        serviceUrl:
+            defaultZone: http://localhost:${server.port}/eureka

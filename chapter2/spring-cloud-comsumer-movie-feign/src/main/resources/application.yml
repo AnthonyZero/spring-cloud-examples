@@ -1,0 +1,24 @@
+spring:
+    application:
+        name : spring-cloud-comsumer-movie-feign
+server:
+    port: 9000
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8010/eureka
+        # 开启健康检查（需要spring-boot-starter-actuator依赖）
+        healthcheck:
+            enabled: true        
+    instance: 
+        prefer-ip-address: true
+        # 续约更新时间间隔
+        lease-expiration-duration-in-seconds: 30
+        # 续约到期时间
+        lease-renewal-interval-in-seconds: 10
+spring-cloud-simple-provider-user:
+    ribbon:
+        NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+logging:
+    level:
+        com.pingjin.remote.UserFeignClient: DEBUG

@@ -1,0 +1,22 @@
+spring:
+    application:
+        name : spring-cloud-hystrix-turbine
+server:
+    port: 8060
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8010/eureka
+        # 开启健康检查（需要spring-boot-starter-actuator依赖）
+        healthcheck:
+            enabled: true        
+    instance: 
+        prefer-ip-address: true
+        # 续约更新时间间隔
+        lease-expiration-duration-in-seconds: 30
+        # 续约到期时间
+        lease-renewal-interval-in-seconds: 10
+# 聚合spring-cloud-comsumer-movie-feign微服务监控数据 多个逗号分隔
+turbine:
+    appConfig: spring-cloud-comsumer-movie-feign
+    clusterNameExpression: "'default'"

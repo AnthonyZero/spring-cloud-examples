@@ -1,0 +1,14 @@
+spring:
+    application:
+        name : spring-cloud-simple-provider-user
+server:
+    port: 8003
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8010/eureka
+    instance: 
+        prefer-ip-address: true
+        # 自定义的元数据
+        metadata-map:
+            author: pingjin
